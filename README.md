@@ -8,6 +8,11 @@ Current list of tools:
  * Synthetic Wind Turbine Power Curve Generator: 
     Produces turbine power curves as as function of a turbine's specific capacity.
 
+
+---
+## Usage Examples
+* [Synthetic Power Curve](Examples/syntheticPowerCurve.ipynb)
+
 ---
 ## Installation
 
@@ -19,9 +24,9 @@ Then install via pip as follows
     
     $ cd <path>/windtools
     $ pip install -e .
-    
----
+   
 
+---
 ## Associated papers
 
 * [The future of European onshore wind energy potential: Detailed distribution and simulation of advanced turbine designs](https://linkinghub.elsevier.com/retrieve/pii/S0360544219311818)

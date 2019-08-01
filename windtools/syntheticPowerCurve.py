@@ -122,14 +122,13 @@ class SyntheticPowerCurve( object ):
 
         color=kwargs.pop('color', (0,91/255,130/255))
         linewidth = kwargs.pop('linewidth', 3)
-        h = ax.plot(s.windSpeed,s.capacityFactor, color=color, linewidth=linewidth)
+        h = ax.plot(s.windSpeed,s.capacityFactor, color=color, linewidth=linewidth, **kwargs)
 
         if doFormatting:
-            plt.tick_params(labelsize=12)
-            plt.xlabel("wind speed [m/s]",fontsize=13)
-            plt.ylabel("capacity output",fontsize=13)
-            plt.tight_layout()
-            plt.grid()
+            ax.tick_params(labelsize=12)
+            ax.set_xlabel("wind speed [m/s]",fontsize=13)
+            ax.set_ylabel("capacity output",fontsize=13)
+            ax.grid()
 
         return h
 
@@ -141,7 +140,7 @@ class SyntheticPowerCurve( object ):
         s.plot()
 
         f = BytesIO()
-        plt.savefig(f, format="svg", dpi=100)
+        plt.savefig(f, format="svg", dpi=100, bbox_inches='tight')
         plt.close()
         f.seek(0)
         return f.read().decode('ascii')
