@@ -2,7 +2,7 @@
 
 # Wind Energy Generation Tools
 
-The Wind Energy Generation Tools provides useful tools to assit in wind energy simulations.
+The Wind Energy Generation Tools provides useful tools to assist in wind energy simulations.
 
 Current list of tools:
  * Synthetic Wind Turbine Power Curve Generator: 
