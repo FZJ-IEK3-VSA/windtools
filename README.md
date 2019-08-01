@@ -1,32 +1,28 @@
 ﻿<a href="http://www.fz-juelich.de/iek/iek-3/EN/Forschung/_Process-and-System-Analysis/_node.html"><img src="http://www.fz-juelich.de/SharedDocs/Bilder/IBG/IBG-3/DE/Plant-soil-atmosphere%20exchange%20processes/INPLAMINT%20(BONARES)/Bild3.jpg?__blob=poster" alt="Forschungszentrum Juelich Logo" width="230px"></a> 
 
-# Synthetic Wind Turbine Power Curve Generator
+# Wind Energy Generation Tools
 
-The Synthetic Wind Turbien Power Curve Generator produces turbine power curves as as function of a turbine's specific power.
+The Wind Energy Generation Tools provides useful tools to assit in wind energy simulations.
+
+Current list of tools:
+ * Synthetic Wind Turbine Power Curve Generator: 
+    Produces turbine power curves as as function of a turbine's specific capacity.
 
 ---
 ## Installation
 
-Be sure the <a href="https://github.com/FZJ-IEK3-VSA/geokit">GeoKit</a> package is installed
-
 Clone a local copy of the repository to your computer
 
-    $ git clone https://github.com/FZJ-IEK3-VSA/synthetic_power_curve.git
+    $ git clone https://github.com/FZJ-IEK3-VSA/windtools.git
     
 Then install via pip as follows 
     
-    $ cd <path>/synthetic_power_curve
+    $ cd <path>/windtools
     $ pip install -e .
     
 ---
 
 ## Associated papers
-
-If you would like to see a **much** more detailed discussion on land eligibility analysis and see why a framework such as GLAES is not only helpful, but a requirement, please see:
-
-<a href="the-background-paper">The Background Paper</a>
-
-Examples of Land Eligibility evaluation and applications:
 
 * [The future of European onshore wind energy potential: Detailed distribution and simulation of advanced turbine designs](https://linkinghub.elsevier.com/retrieve/pii/S0360544219311818)
 
