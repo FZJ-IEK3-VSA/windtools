@@ -11,7 +11,7 @@ Current list of tools:
 
 ---
 ## Usage Examples
-* [Synthetic Power Curve](Examples/syntheticPowerCurve.ipynb)
+* [Synthetic Power Curve](Examples/SyntheticPowerCurve.ipynb)
 
 ---
 ## Installation
